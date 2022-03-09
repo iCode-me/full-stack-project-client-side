@@ -7,8 +7,13 @@ const NavBar = () => {
       <Link className="nav-menu__item" to="/">
         _courseology
       </Link>
-      <Link className="nav-menu__item" to="/">
+      <Link className="nav-menu__item" to="/add-course">
+        Add course
       </Link>
+      <Link className="nav-menu__item" to="/courses">
+        Courses
+      </Link>
+
     </div>
   )
 }
