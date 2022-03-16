@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css';
+import './App.scss';
 import Form from './component/Form/Form';
 import CourseHome from './containers/CourseHome/CourseHome'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
