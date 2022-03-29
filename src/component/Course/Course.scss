@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.course {
+
+  h2 {
+    text-align: center;
+    margin: 30px;
+    color: navy;
+  }
+  
+  &__details {
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgb(237, 235, 235);
+
+    h3 {
+      color: navy;
+    }
+
+    td {
+      padding: 12px;
+    }
+
+    &-table-title {
+      color: navy;
+      font-weight: bold;
+    }
+
+  }
+}
+
+Button {
+  width: 200px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+
